@@ -2,7 +2,11 @@
 version: '2'
 services:
   web:
-    image:  node
+    image: rethinkdb
+    ports:
+        - "8080"
+        - "28015"
+        - "29015"
   rethinkdb:
     image: rethinkdb
     ports:
