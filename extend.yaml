@@ -2,7 +2,7 @@
  services:
   web:
     extends:
-      file: compose.yml
+      file: compose.yaml
       service: web
     ports:
       - "9000:9000"
